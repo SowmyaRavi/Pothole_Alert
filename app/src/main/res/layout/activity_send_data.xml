@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="#5589b3" android:layout_height="wrap_content" android:layout_width="match_parent">
+
+    <LinearLayout android:orientation="vertical" android:layout_height="wrap_content" android:layout_width="fill_parent" android:padding="10dp">
+
+        <LinearLayout android:orientation="vertical" android:layout_height="wrap_content" android:layout_width="fill_parent" android:padding="10dp">
+            <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:padding="5dp" android:textStyle="bold" android:textAppearance="?android:attr/textAppearanceMedium" android:text="@string/lable_description" android:paddingLeft="10sp" android:id="@+id/txt_desc"/>
+            <EditText android:background="#ffffff" android:layout_height="124dp" android:layout_width="match_parent" android:padding="5dp" android:id="@+id/edit_desc" android:inputType="textMultiLine" android:hint="@string/hint_description" android:gravity="top" android:ems="10"> </EditText>
+        </LinearLayout>
+
+        <LinearLayout android:orientation="vertical" android:layout_height="wrap_content" android:layout_width="fill_parent" android:padding="10dp">
+            <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:padding="5dp" android:textStyle="bold" android:textAppearance="?android:attr/textAppearanceMedium" android:text="@string/lable_cat" android:paddingLeft="10sp" android:id="@+id/txt_cat"/>
+            <EditText android:background="#ffffff" android:layout_height="30dp" android:layout_width="match_parent" android:padding="5dp" android:id="@+id/report_type" android:inputType="textMultiLine" android:hint="@string/hint_type" android:gravity="top" android:ems="10"> </EditText>
+        </LinearLayout>
+
+        <LinearLayout android:orientation="vertical" android:layout_height="wrap_content" android:layout_width="fill_parent" android:padding="10dp">
+            <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:padding="5dp" android:textStyle="bold" android:textAppearance="?android:attr/textAppearanceMedium" android:text="@string/user_name" android:paddingLeft="10sp" android:id="@+id/user_name"/>
+            <EditText android:background="#ffffff" android:layout_height="30dp" android:layout_width="match_parent" android:padding="5dp" android:id="@+id/user_id" android:inputType="textMultiLine" android:gravity="top" android:ems="10"> </EditText>
+        </LinearLayout>
+
+        <LinearLayout android:orientation="vertical" android:layout_height="wrap_content" android:layout_width="fill_parent" android:padding="10dp">
+            <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:padding="5dp" android:textStyle="bold" android:textAppearance="?android:attr/textAppearanceMedium" android:text="@string/latitude" android:paddingLeft="10sp" android:id="@+id/lat_long1"/>
+            <EditText android:background="#ffffff" android:layout_height="30dp" android:layout_width="match_parent" android:padding="5dp" android:id="@+id/latitude" android:inputType="textMultiLine" android:gravity="top" android:ems="10"> </EditText>
+            <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:padding="5dp" android:textStyle="bold" android:textAppearance="?android:attr/textAppearanceMedium" android:text="@string/longitude" android:paddingLeft="10sp" android:id="@+id/lat_long2"/>
+            <EditText android:background="#ffffff" android:layout_height="30dp" android:layout_width="match_parent" android:padding="5dp" android:id="@+id/longitude" android:inputType="textMultiLine" android:gravity="top" android:ems="10"> </EditText>
+            <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:padding="10dp" android:text="@string/get_location" android:id="@+id/get_location" android:layout_weight="1"/>
+        </LinearLayout>
+
+        <LinearLayout android:orientation="vertical" android:layout_height="wrap_content" android:layout_width="fill_parent" android:padding="10dp"
+            android:weightSum="1">
+            <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:padding="5dp" android:textStyle="bold" android:textAppearance="?android:attr/textAppearanceMedium" android:text="@string/image_type" android:paddingLeft="10sp" android:id="@+id/image_type"/>
+            <Spinner android:background="#ffffff" android:layout_height="wrap_content" android:layout_width="match_parent" android:padding="5dp" android:id="@+id/spinner_image_type" android:entries="@array/image_array"/>
+            <ImageButton android:layout_height="match_parent" android:layout_width="wrap_content" android:id="@+id/btn_photo" android:src="@drawable/ic_launcher" android:contentDescription="@string/button_photo" android:visibility="invisible"/>
+        </LinearLayout>
+
+        <LinearLayout android:orientation="vertical" android:layout_height="wrap_content" android:layout_width="fill_parent" android:padding="10dp">
+            <ImageView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/last_photo1" android:layout_gravity="center" android:contentDescription="@string/app_name" android:visibility="invisible"/>
+        </LinearLayout>
+
+        <LinearLayout android:orientation="horizontal" android:layout_height="wrap_content" android:layout_width="wrap_content" android:padding="10dp">
+
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Clear"
+                android:id="@+id/button4" />
+
+            <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:padding="10dp" android:text="@string/button_submit" android:id="@+id/btn_submit" android:layout_weight="1" android:layout_gravity="right" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

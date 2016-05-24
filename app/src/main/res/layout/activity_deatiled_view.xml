@@ -1,0 +1,54 @@
+<ScrollView android:orientation="vertical" android:background="#5589b3" android:layout_height="wrap_content" android:layout_width="match_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout android:orientation="vertical" android:layout_height="fill_parent" android:layout_width="fill_parent" android:padding="5dp">
+
+        <LinearLayout android:orientation="vertical" android:layout_height="wrap_content" android:layout_width="fill_parent" android:padding="10dp">
+            <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:padding="5dp" android:textStyle="bold" android:textAppearance="?android:attr/textAppearanceMedium" android:text="@string/lable_description" android:paddingLeft="10sp" android:id="@+id/txt_desc"/>
+            <TextView android:background="#ffffff" android:layout_height="124dp" android:layout_width="match_parent" android:padding="5dp" android:id="@+id/edit_desc" android:inputType="textMultiLine" android:hint="@string/hint_description" android:gravity="top" android:ems="10"> </TextView>
+        </LinearLayout>
+
+        <LinearLayout android:orientation="vertical" android:layout_height="wrap_content" android:layout_width="fill_parent" android:padding="10dp">
+            <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:padding="5dp" android:textStyle="bold" android:textAppearance="?android:attr/textAppearanceMedium" android:text="@string/user_id" android:paddingLeft="10sp" android:id="@+id/id1"/>
+            <TextView android:background="#ffffff" android:layout_height="wrap_content" android:layout_width="match_parent" android:padding="5dp" android:id="@+id/id2" android:inputType="textMultiLine"  android:gravity="top" android:ems="10"> </TextView>
+
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_height="wrap_content" android:layout_width="fill_parent" android:padding="10dp"
+            android:weightSum="1">
+            <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:padding="5dp" android:textStyle="bold" android:textAppearance="?android:attr/textAppearanceMedium" android:text="@string/latitude" android:paddingLeft="10sp" android:id="@+id/id3"/>
+
+            <TextView android:background="#ffffff" android:layout_height="50dp" android:layout_width="260dp" android:padding="5dp" android:id="@+id/id4" android:inputType="textMultiLine"  android:gravity="top" android:ems="10"> </TextView>
+
+            <TextView android:layout_height="wrap_content" android:layout_width="170dp" android:padding="5dp" android:textStyle="bold" android:textAppearance="?android:attr/textAppearanceMedium" android:text="@string/longitude" android:paddingLeft="10sp" android:id="@+id/id7"/>
+
+            <TextView android:background="#ffffff" android:layout_height="50dp" android:layout_width="251dp" android:padding="5dp" android:id="@+id/id8" android:inputType="textMultiLine"  android:gravity="top" android:ems="10"> </TextView>
+
+            <Button
+                android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/map_location" android:id="@+id/button2"
+                android:layout_gravity="center_horizontal" />
+
+
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_height="wrap_content" android:layout_width="fill_parent" android:padding="10dp">
+            <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:padding="5dp" android:textStyle="bold" android:textAppearance="?android:attr/textAppearanceMedium" android:text="@string/lable_cat" android:paddingLeft="10sp" android:id="@+id/id5"/>
+            <TextView android:background="#ffffff" android:layout_height="wrap_content" android:layout_width="match_parent" android:padding="5dp" android:id="@+id/id6" android:inputType="textMultiLine"  android:gravity="top" android:ems="10"> </TextView>
+
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_height="215dp" android:layout_width="fill_parent" android:padding="10dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView"
+                android:layout_gravity="center_horizontal" />
+        </LinearLayout>
+
+        <LinearLayout android:orientation="vertical" android:layout_height="wrap_content" android:layout_width="fill_parent" android:padding="10dp">
+            <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:padding="5dp" android:textStyle="bold" android:textAppearance="?android:attr/textAppearanceMedium" android:text="Image Type" android:paddingLeft="10sp" android:id="@+id/id11"/>
+            <TextView android:background="#ffffff" android:layout_height="wrap_content" android:layout_width="match_parent" android:padding="5dp" android:id="@+id/id9" android:inputType="textMultiLine"  android:gravity="top" android:ems="10"> </TextView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</ScrollView>

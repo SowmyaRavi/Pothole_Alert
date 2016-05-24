@@ -1,0 +1,40 @@
+
+Network connections		                            20/20
+
+List View for all Reports	                            10/10
+
+Detailed view of a report	                            10/10
+
+Display image of a report	                            10/10
+
+Post a report			                            0/20
+
+Post photo taken on device	                            3/10
+
+GUI quality			                            5/5
+
+Navigation between views	                            10/10
+
+Proper location of device	                            5/5
+
+
+Days Late                                                   0
+
+Total                                                       73/100
+
+Displays reports of all users without long delay(optional)  5/5
+
+Map view of all potholes in a given region (optional)       0/15
+
+A map  a single pothole (optional)                          0/5
+
+
+
+Optional Total                                              5/25
+
+Total                                                       78/125
+
+
+
+Marks Deduction : No Maps implementation.
+                  Reports and Photos are not getting posted.
